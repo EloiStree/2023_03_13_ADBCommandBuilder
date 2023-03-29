@@ -62,14 +62,14 @@ public class ADBUnstoreWhatIsThat {
 
     /*
      
-     
+        
 To list all devices connected via USB or To restart adb device in USB mode	adb usb
 To list all forward socket connections	adb forward –list
 To set up port forwarding (sets up forwarding of computer port 6123 to Android device port 7123)	adb forward tcp:6123 tcp:7123
      
      
      
-To list directory content	adb shell ls
+To list directory content	adb shell lss
 To print size of each file in selected directory	adb shell ls -s
 To print list of subdirectories recursively	adb shell ls -R
 
